@@ -4,16 +4,40 @@
     <title>TA6</title>
 </head>
 <body>
+    <h1>Información importante</h1>
     <form>
-        <input type="radio">
-        <label >me gustan los circulos</label>
+       
+        <label >¿Cuáles juegos has jugado?:</label>
         <br>
-        <input type="checkbox">
-        <label >tambien los ticks</label>
+        <select multiple>
+            <option >GTA</option>
+            <option >Minecraft</option>
+            <option >Mortal kombat</option>
+            <option >Animal Crossing</option>
+            <option >Tetris</option>
+            <option >Baldur´s Gate III</option>
+        </select>
+        <br><br>
+
+        <!-- Preguntas con botones de radio -->
+        <label>¿Cuál es tu género musical preferido?</label>
         <br>
-        <input type="reset">
-        <input type="submit">
+        <input type="radio" id="rock" name="musica">
+        <label for="rock">Rock</label><br>
         
+        <input type="radio" id="pop" name="musica">
+        <label for="pop">Pop</label><br>
+        
+        <input type="radio" id="jazz" name="musica">
+        <label for="jazz">Jazz</label><br>
+        
+        <input type="radio" id="clasica" name="musica" >
+        <label for="clasica">Música Clásica</label><br>
+
+        <input type="radio" id="otro" name="musica">
+        <label for="otro">Otro</label><br><br>
+        <br>
+        <input type="submit" value="Listo">
     </form>
 </body>
 </html>
