@@ -1,52 +1,65 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Índice de Tareas</title>
+    <title>Indice de Tareas</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #eaf2f6;
             margin: 0;
             padding: 20px;
             text-align: center;
         }
         h1 {
-            color: #333;
+            color: #2f2a2a;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
+        h2 {
+            color: #393434;
         }
-        li {
-            margin: 10px 0;
+        .formato_lindo {
+            display: flex;
+            padding-left: 20%;
+            padding-right: 20%;
+            align-items: center;
         }
-        a {
+        .formato_lindo a {
             text-decoration: none;
-            color: #0066cc;
+            width: 100%;
+            color: #fff;
+            background-color: #0066cc;
+            padding: 20px;
+            margin: 5px;
             font-size: 18px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease; /*esta es la trancicion linda de cuando pones el mouse*/
         }
-        a:hover {
-            text-decoration: underline;
+        .formato_lindo a:hover {
+            background-color: #004c99;
         }
     </style>
 </head>
 <body>
-    <h1>Índice de Tareas</h1>
+    <h1>Indice de Tareas</h1>
     <h2>HTML</h2>
-    <ul>
-        <li><a href="./TA1/index.html">Tarea 1</a></li>
-        <li><a href="./TA2/index.html">Tarea 2</a></li>
-        <li><a href="./TA3/index.html">Tarea 3</a></li>
-        <li><a href="./TA4/index.html">Tarea 4</a></li>
-        <li><a href="./TA5/index.html">Tarea 5</a></li>
-        <li><a href="./TA6/index.html">Tarea 6</a></li>
-        <li><a href="./TA7/index.html">Tarea 7</a></li>
-        <li><a href="./TA8/index.html">Tarea 8</a></li>
-        <li><a href="./TA9/index.html">Tarea 9</a></li>
-    </ul>
+    <div class="formato_lindo">
+        <a href="./TA1/index.html">Tarea 1</a>
+        <a href="./TA2/index.html">Tarea 2</a>
+        <a href="./TA3/index.html">Tarea 3</a>
+        <a href="./TA4/index.html">Tarea 4</a>
+        <a href="./TA5/index.html">Tarea 5</a>
+        <a href="./TA6/index.html">Tarea 6</a>
+        <a href="./TA7/index.html">Tarea 7</a>
+        <a href="./TA8/index.html">Tarea 8</a>
+        <a href="./TA9/index.html">Tarea 9</a>
+    </div>
     <h2>CSS</h2>
-    <ul>
-        <li><a href="./TA10/index.html">Tarea 10</a></li>
-    </ul>
+    <div class="formato_lindo">
+        <a href="./TA10/index.html">Tarea 10</a>
+        <a href="./TA11/index.html">Tarea 11</a>
+        <a href="./TA12/index.html">Tarea 12</a>
+        <a href="./TA13/index.html">Tarea 13</a>
+        <a href="./TA14/index.html">Tarea 14</a>
+        <a href="./TA15/index.html">Tarea 15</a>
+    </div>
 </body>
 </html>
