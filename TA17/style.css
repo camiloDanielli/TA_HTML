@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*el estilo de la tarjeta*/
+div {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+
+    /* decoracion opcional */
+    background-color: #fbfbfb;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+   /* decoracion opcional */
+}
+
+img {
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    border-radius: 50%;
+    /* con eso ya quedo, esto de abajo es para que se vea lindo*/
+    width: 60px;
+    height: 60px;
+    border: 3px solid #fff;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
