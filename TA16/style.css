@@ -11,10 +11,6 @@ body {background-color: red;}
 @media (max-width: 1439px) {
 
     body {background-color: white;}
-    p { font-size: 18px;}
-    img {
-        width: 70%;
-    }
 }
 @media (max-width: 767px) {
 
