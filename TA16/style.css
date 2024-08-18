@@ -1,0 +1,44 @@
+
+/*no es necesario definir @media debido a que asumo por Letra el tamaño Por defecto debe ser el de pantalla grande
+por tanto se diseña en base a eso, y no Mobile-first*/
+
+body {background-color: red;}
+    p { font-size: 24px;}
+    img {
+        width: 50%;
+    }
+
+@media (max-width: 1439px) {
+
+    body {background-color: white;}
+    p { font-size: 18px;}
+    img {
+        width: 70%;
+    }
+}
+@media (max-width: 767px) {
+
+    body {background-color: green;}
+    p { font-size: 18px;}
+    img {
+        width: 70%;
+    }
+}
+@media (max-width: 425px)  {
+
+    body {
+        background-color: blue;
+    }
+    p { font-size: 14px;}
+    img {
+        width: 100%;
+    }
+    
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
